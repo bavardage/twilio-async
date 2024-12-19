@@ -69,6 +69,7 @@ pub struct MsgResp {
     pub date_sent: Option<String>,
     pub date_updated: String,
     pub error_code: Option<u32>,
+    pub error_message: Option<String>,
 }
 
 // for outbound sms
